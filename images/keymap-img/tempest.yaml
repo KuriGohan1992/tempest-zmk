@@ -655,7 +655,7 @@ combos:
 - p: [7, 8]
   k: '&low_you'
   l: [Base, typing]
-- p: [7, 8, 32]
+- p: [7, 8, 35]
   k: '&up_you'
   l: [Base, typing]
 - p: [27, 28]
