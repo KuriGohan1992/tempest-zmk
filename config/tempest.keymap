@@ -519,7 +519,7 @@
   &kp Q                   &kp W              &kp F                 &kp P                 &kp B           &kp J                  &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
   &none &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G           &kp M                  &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O &none 
   &kp Z                   &kp X              &kp C                 &kp D                 &kp V           &kp K                  &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
-                                                                   &kp SPACE             &mo_kp 2 ESC    &none &none &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
+                                                                   &kp SPACE             &mo_kp 2 ESC    &mo_kp 2 ESC    &mt RIGHT_SHIFT ENTER &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
             >;
         };
 
@@ -528,7 +528,7 @@
   &kp EXCL                  &kp AT                        &kp HASH                  &kp DLLR                             &kp PRCNT               &kp CARET         &kp AMPERSAND                           &kp ASTRK                   &kp TILDE                     &kp DELETE
   &none &hrm_left LEFT_SHIFT SQT  &hrm_left LEFT_CONTROL UNDER  &hrm_left LEFT_ALT GRAVE  &hrm_left LEFT_GUI LEFT_PARENTHESIS  &kp LEFT_BRACE          &kp RIGHT_BRACE   &hrm_right RIGHT_GUI RIGHT_PARENTHESIS  &hrm_right RIGHT_ALT COLON  &hrm_right RIGHT_CONTROL DQT  &hrm_right RIGHT_SHIFT SEMI &none 
   &kp PLUS                  &kp MINUS                     &kp EQUAL                 &kp LBKT                             &kp BSLH                &kp PIPE          &kp RBKT                                &kp LT                      &kp GT                        &kp QMARK
-                                                                                    &mo_kp 7 SPACE                       &mt LS(LEFT_ALT) ESC    &none &none &mt RSHIFT ENTER  &to 3
+                                                                                    &mo_kp 7 SPACE                       &mt LS(LEFT_ALT) ESC    &mt LS(LEFT_ALT) ESC    &mt RSHIFT ENTER &mt RSHIFT ENTER  &to 3
             >;
         };
 
@@ -537,7 +537,7 @@
   &kp LG(TAB)  &kp RA(RG(F5))  &kp F12    &kp LS(F12)  &kp DLLR        &kp PRCNT           &kp CARET    &kp AMPS   &kp ASTRK  &kp BACKSPACE
   &none &kp N1       &kp N2          &kp N3     &kp N4       &kp N5          &kp N6              &kp N7       &kp N8     &kp N9     &kp N0 &none 
   &kp PLUS     &kp MINUS       &kp EQUAL  &kp LBKT     &kp BSLH        &kp PIPE            &kp RBKT     &kp COMMA  &kp DOT    &kp FSLH
-                                          &kp SPACE    &mo_kp 0 ESC    &none &none &mt LEFT_GUI ENTER  &mo_tog 1 6
+                                          &kp SPACE    &mo_kp 0 ESC    &mo_kp 0 ESC    &mt LEFT_GUI ENTER &mt LEFT_GUI ENTER  &mo_tog 1 6
             >;
         };
 

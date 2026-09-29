@@ -35,8 +35,8 @@ layers:
   - {t: /, s: '?'}
   - ⎵
   - {t: ESC, h: Numbers}
-  - ''
-  - ''
+  - {t: ESC, h: Numbers}
+  - {t: ENTER, h: ⇧}
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
   Symbols:
@@ -74,8 +74,8 @@ layers:
   - '?'
   - {t: ⎵, h: Macros}
   - {t: ESC, h: Sft+⎇}
-  - ''
-  - ''
+  - {t: ESC, h: Sft+⎇}
+  - {t: ENTER, h: RSHIFT}
   - {t: ENTER, h: RSHIFT}
   - {t: Mouse, h: toggle, type: held}
   Numbers:
@@ -113,8 +113,8 @@ layers:
   - /
   - ⎵
   - {t: ESC, h: Base, type: held}
-  - ''
-  - ''
+  - {t: ESC, h: Base}
+  - {t: ENTER, h: ⌘}
   - {t: ENTER, h: ⌘}
   - {t: Special, h: Symbols}
   Mouse:
