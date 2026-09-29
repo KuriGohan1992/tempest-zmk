@@ -584,7 +584,7 @@
 
         Macros {
             bindings = <
-       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &vs_code    &soft_off          &kp LA(LC(LG(S)))  &kp RG(DOWN)  &prev_song      &music          &next_song       &kp RG(UP)
+       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)  &prev_song      &music          &next_song       &kp RG(UP)
 &none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings     &finder         &yazi           &zen             &kitty      &none
        &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)         &kp LA(LC(LG(R)))  &faith_wifi   &mobile_number  &student_email  &personal_email  &stein
                                           &kp SPACE   &kp LG(BACKSPACE)  &none              &none         &mendez_charl   &charl_mendez

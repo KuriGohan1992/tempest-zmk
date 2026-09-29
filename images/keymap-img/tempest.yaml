@@ -278,8 +278,8 @@ layers:
   Macros:
   - Alt+Ctl+Gui+L
   - Gui+AltGr+F5
-  - '&vs_code'
-  - '&soft_off'
+  - ''
+  - ''
   - Alt+Ctl+Gui+S
   - Gui+↓
   - '&prev_song'
