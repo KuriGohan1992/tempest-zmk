@@ -635,7 +635,7 @@ combos:
   l: [Base]
 - p: [33, 36]
   k: {t: QWERTY, h: toggle}
-- p: [33, 36]
+- p: [32, 37]
   k: {t: Base, h: toggle}
 - p: [14, 13, 15]
   k: {t: GGST_arrow, h: toggle}
