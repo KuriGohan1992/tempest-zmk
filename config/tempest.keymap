@@ -279,6 +279,7 @@
         soft-off {
             bindings = <&soft_off>;
             key-positions = <4 5>;
+            layers = <0>;
         };
     };
 
