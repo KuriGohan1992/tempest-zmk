@@ -529,12 +529,6 @@ path.combo {
 <text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
-<g class="combo combopos-27">
-<path d="M468,48 l-135,0" class="combo"/>
-<path d="M468,48 l135,0" class="combo"/>
-<rect rx="6" ry="6" x="454" y="35" width="28" height="26" class="combo"/>
-<text x="468" y="48" class="combo tap">&amp;soft_off</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 349)" class="layer-Symbols">
@@ -1656,7 +1650,6 @@ path.combo {
 </g>
 <g transform="translate(315, 48)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BOOT</text>
 </g>
 <g transform="translate(622, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1854,7 +1847,7 @@ path.combo {
 </g>
 <g transform="translate(259, 39)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;cot_editor</text>
+<text x="0" y="0" class="key tap">&amp;soft_off</text>
 </g>
 <g transform="translate(315, 48)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

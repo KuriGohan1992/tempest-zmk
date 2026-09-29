@@ -239,7 +239,7 @@ layers:
   - Gui+-
   - Gui+0
   - Gui+=
-  - BOOT
+  - ''
   - ''
   - ⇤
   - ''
@@ -279,7 +279,7 @@ layers:
   - Alt+Ctl+Gui+L
   - Gui+AltGr+F5
   - '&vs_code'
-  - '&cot_editor'
+  - '&soft_off'
   - Alt+Ctl+Gui+S
   - Gui+↓
   - '&prev_song'
@@ -706,6 +706,3 @@ combos:
   k: {t: typing, h: toggle}
 - p: [27, 28, 29]
   k: {t: gallium_v2, h: toggle}
-- p: [4, 5]
-  k: '&soft_off'
-  l: [Base]
