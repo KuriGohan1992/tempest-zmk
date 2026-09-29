@@ -283,7 +283,7 @@ layers:
   - Alt+Ctl+Gui+S
   - Gui+↓
   - '&prev_song'
-  - '&music'
+  - '&soft_off'
   - '&next_song'
   - Gui+↑
   - ''
