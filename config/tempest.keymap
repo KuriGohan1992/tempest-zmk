@@ -517,7 +517,7 @@
         Base {
             bindings = <
   &kp Q                   &kp W              &kp F                 &kp P                 &kp B           &kp J                  &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
-  &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G           &kp M                  &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O
+  &none &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G           &kp M                  &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O &none 
   &kp Z                   &kp X              &kp C                 &kp D                 &kp V           &kp K                  &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
                                                                    &kp SPACE             &mo_kp 2 ESC    &none &none &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
             >;
@@ -526,7 +526,7 @@
         Symbols {
             bindings = <
   &kp EXCL                  &kp AT                        &kp HASH                  &kp DLLR                             &kp PRCNT               &kp CARET         &kp AMPERSAND                           &kp ASTRK                   &kp TILDE                     &kp DELETE
-  &hrm_left LEFT_SHIFT SQT  &hrm_left LEFT_CONTROL UNDER  &hrm_left LEFT_ALT GRAVE  &hrm_left LEFT_GUI LEFT_PARENTHESIS  &kp LEFT_BRACE          &kp RIGHT_BRACE   &hrm_right RIGHT_GUI RIGHT_PARENTHESIS  &hrm_right RIGHT_ALT COLON  &hrm_right RIGHT_CONTROL DQT  &hrm_right RIGHT_SHIFT SEMI
+  &none &none &hrm_left LEFT_SHIFT SQT  &hrm_left LEFT_CONTROL UNDER  &hrm_left LEFT_ALT GRAVE  &hrm_left LEFT_GUI LEFT_PARENTHESIS  &kp LEFT_BRACE          &kp RIGHT_BRACE   &hrm_right RIGHT_GUI RIGHT_PARENTHESIS  &hrm_right RIGHT_ALT COLON  &hrm_right RIGHT_CONTROL DQT  &hrm_right RIGHT_SHIFT SEMI &none 
   &kp PLUS                  &kp MINUS                     &kp EQUAL                 &kp LBKT                             &kp BSLH                &kp PIPE          &kp RBKT                                &kp LT                      &kp GT                        &kp QMARK
                                                                                     &mo_kp 7 SPACE                       &mt LS(LEFT_ALT) ESC    &none &none &mt RSHIFT ENTER  &to 3
             >;
@@ -535,7 +535,7 @@
         Numbers {
             bindings = <
   &kp LG(TAB)  &kp RA(RG(F5))  &kp F12    &kp LS(F12)  &kp DLLR        &kp PRCNT           &kp CARET    &kp AMPS   &kp ASTRK  &kp BACKSPACE
-  &kp N1       &kp N2          &kp N3     &kp N4       &kp N5          &kp N6              &kp N7       &kp N8     &kp N9     &kp N0
+  &none &kp N1       &kp N2          &kp N3     &kp N4       &kp N5          &kp N6              &kp N7       &kp N8     &kp N9     &kp N0 &none 
   &kp PLUS     &kp MINUS       &kp EQUAL  &kp LBKT     &kp BSLH        &kp PIPE            &kp RBKT     &kp COMMA  &kp DOT    &kp FSLH
                                           &kp SPACE    &mo_kp 0 ESC    &none &none &mt LEFT_GUI ENTER  &mo_tog 1 6
             >;
@@ -544,7 +544,7 @@
         Mouse {
             bindings = <
   &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-16)  &msc MOVE_X(16)     &kp DOWN               &kp RIGHT           &mmv MOVE_UP     &kp LC(LG(F))    &mt DEL BACKSPACE
-  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))       &kp LA(LC(L))          &mmv MOVE_LEFT      &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp LC(LA(C))
+  &none &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))       &kp LA(LC(L))          &mmv MOVE_LEFT      &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &kp LC(LA(C)) &none 
   &kp LA(LC(Z))    &kp LA(LC(E))  &kp PAGE_UP    &msc MOVE_Y(16)   &msc MOVE_X(-16)    &kp UP                 &kp LEFT            &kp LA(LS(TAB))  &kp LA(TAB)      &kp LA(LC(ENTER))
                                                  &to 0             &mt LEFT_GUI ESC    &none &none &mt RIGHT_SHIFT ENTER  &kp_tog LEFT_ALT 6
             >;
@@ -553,7 +553,7 @@
         Fast {
             bindings = <
   &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-40)  &msc MOVE_X(40)     &kp DOWN               &kp RIGHT           &mmv MOVE_Y(-5000)  &kp LC(LG(F))      &mt DEL BACKSPACE
-  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))       &kp LA(LC(L))          &mmv MOVE_X(-5000)  &mmv MOVE_Y(5000)   &mmv MOVE_X(5000)  &kp LC(LA(C))
+  &none &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))       &kp LA(LC(L))          &mmv MOVE_X(-5000)  &mmv MOVE_Y(5000)   &mmv MOVE_X(5000)  &kp LC(LA(C)) &none 
   &kp LA(LC(Z))    &kp LA(LC(E))  &kp PAGE_UP    &msc MOVE_Y(40)   &msc MOVE_X(-40)    &kp UP                 &kp LEFT            &kp LA(LS(TAB))     &kp LA(TAB)        &kp LA(LC(ENTER))
                                                  &to 0             &mt LEFT_GUI ESC    &none &none &mt RIGHT_SHIFT ENTER  &kp_tog LEFT_ALT 6
             >;
@@ -562,7 +562,7 @@
         Slow {
             bindings = <
   &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-4)  &msc MOVE_X(4)      &kp DOWN              &kp RIGHT           &mmv MOVE_Y(-400)  &kp LC(LG(F))     &mt DEL BACKSPACE
-  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK        &kp LA(LC(H))       &kp LA(LC(L))         &mmv MOVE_X(-400)   &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &kp LC(LA(C))
+  &none &mo 5            &mo 4          &mkp RCLK      &mkp LCLK        &kp LA(LC(H))       &kp LA(LC(L))         &mmv MOVE_X(-400)   &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &kp LC(LA(C)) &none 
   &kp LA(LC(Z))    &kp LA(LC(E))  &kp PAGE_UP    &msc MOVE_Y(4)   &msc MOVE_X(-4)     &kp UP                &kp LEFT            &kp LA(LS(TAB))    &kp LA(TAB)       &kp LA(LC(ENTER))
                                                  &to 0            &mt LEFT_GUI ESC    &none &none &mt LEFT_SHIFT ENTER  &kp_tog LEFT_ALT 6
             >;
@@ -571,7 +571,7 @@
         Special {
             bindings = <
   &kp TAB     &kp LG(MINUS)           &kp LG(N0)  &kp LG(EQUAL)            &bootloader         &none      &kp LG(LEFT)  &none         &kp LG(RIGHT)  &none
-  &kp LSHIFT  &kp C_VOLUME_DOWN       &kp K_MUTE  &kp C_VOL_UP             &none               &none      &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp CLCK
+  &none &kp LSHIFT  &kp C_VOLUME_DOWN       &kp K_MUTE  &kp C_VOL_UP             &none               &none      &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp CLCK &none 
   &none       &kp RS(RC(LEFT_ARROW))  &none       &kp RC(RS(RIGHT_ARROW))  &none               &none      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &none
                                                   &to 0                    &mt LEFT_GUI ESC    &none &none &kp ENTER  &to 3
             >;
@@ -580,7 +580,7 @@
         Macros {
             bindings = <
   &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &vs_code    &cot_editor    &kp LA(LC(LG(S)))    &kp RG(DOWN)   &prev_song      &music          &next_song       &kp RG(UP)
-  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))  &kp LA(LC(LG(D)))    &settings      &finder         &yazi           &zen             &kitty
+  &none &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))  &kp LA(LC(LG(D)))    &settings      &finder         &yazi           &zen             &kitty &none
   &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)     &kp LA(LC(LG(R)))    &faith_wifi    &mobile_number  &student_email  &personal_email  &stein
                                                  &kp SPACE      &kp LG(BACKSPACE)    &none &none &mendez_charl  &charl_mendez
             >;
@@ -589,7 +589,7 @@
         QWERTY {
             bindings = <
   &kp Q  &kp W  &kp E  &kp R      &kp T           &kp Y                  &kp U        &kp I      &kp O    &kp P
-  &kp A  &kp S  &kp D  &kp F      &kp G           &kp H                  &kp J        &kp K      &kp L    &kp BACKSPACE
+  &none &kp A  &kp S  &kp D  &kp F      &kp G           &kp H                  &kp J        &kp K      &kp L    &kp BACKSPACE &none
   &kp Z  &kp X  &kp C  &kp V      &kp B           &kp N                  &kp M        &kp COMMA  &kp DOT  &kp FSLH
                        &kp SPACE  &mo_kp 2 ESC    &none &none &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
             >;
@@ -598,7 +598,7 @@
         GGST_arrow {
             bindings = <
   &kp RG(Q)  &none  &kp BSPC  &kp LEFT   &kp TILDE    &kp BSLH   &kp INS        &none    &none     &kp O
-  &none      &none  &kp X     &kp DOWN   &kp UP       &kp RBKT   &kp DEL        &kp END  &kp HOME  &kp PAGE_UP
+  &none &none      &none  &kp X     &kp DOWN   &kp UP       &kp RBKT   &kp DEL        &kp END  &kp HOME  &kp PAGE_UP &none
   &kp LBKT   &none  &kp C     &kp RIGHT  &kp U        &none      &kp K          &kp I    &kp L     &none
                               &to 10     &kp N0       &none &none &kp ENTER  &kp PAGE_DOWN
             >;
@@ -607,7 +607,7 @@
         GGST_wasd {
             bindings = <
   &kp RG(Q)  &none  &kp BSPC  &kp A  &kp Q     &kp BSLH   &kp INS        &none    &none     &kp O
-  &none      &none  &kp X     &kp S  &kp W     &kp RBKT   &kp DEL        &kp END  &kp HOME  &kp PAGE_UP
+  &none &none      &none  &kp X     &kp S  &kp W     &kp RBKT   &kp DEL        &kp END  &kp HOME  &kp PAGE_UP &none
   &kp LBKT   &none  &kp C     &kp D  &kp U     &none      &kp K          &kp I    &kp L     &none
                               &to 9  &kp N0    &none &none &kp ENTER  &kp PAGE_DOWN
             >;
@@ -616,7 +616,7 @@
         Brawlhalla {
             bindings = <
   &kp N1  &kp N2  &kp N3  &kp N4     &trans       &trans  &kp RIGHT  &trans  &trans  &trans
-  &kp Z   &kp X   &kp C   &kp V      &kp TAB      &kp UP  &kp DOWN   &trans  &trans  &trans
+  &none &kp Z   &kp X   &kp C   &kp V      &kp TAB      &kp UP  &kp DOWN   &trans  &trans  &trans &none
   &trans  &trans  &trans  &trans     &trans       &trans  &kp LEFT   &trans  &trans  &trans
                           &kp SPACE  &kp SPACE    &none &none &trans  &trans
             >;
@@ -625,7 +625,7 @@
         GGST_Online {
             bindings = <
   &kp RG(Q)  &none  &kp BSPC  &kp A  &kp Q     &kp BSLH   &kp U          &none  &kp H  &kp L
-  &none      &none  &kp X     &kp S  &kp W     &kp RBKT   &kp J          &kp K  &kp I  &kp O
+  &none &none      &none  &kp X     &kp S  &kp W     &kp RBKT   &kp J          &kp K  &kp I  &kp O &none
   &kp LBKT   &none  &kp C     &kp D  &kp U     &none      &kp V          &kp B  &kp N  &kp M
                               &to 9  &kp N0    &none &none &kp ENTER  &kp PAGE_DOWN
             >;
@@ -634,7 +634,7 @@
         GGST_norm {
             bindings = <
   &kp RG(Q)  &none  &kp BSPC  &kp LEFT   &kp TILDE     &kp MINUS  &kp N7         &kp N8  &kp N9  &kp EQUAL
-  &none      &none  &kp X     &kp DOWN   &kp UP        &kp RBKT   &kp N4         &kp N5  &kp N6  &kp BSLH
+  &none &none      &none  &kp X     &kp DOWN   &kp UP        &kp RBKT   &kp N4         &kp N5  &kp N6  &kp BSLH &none
   &kp LBKT   &none  &kp C     &kp RIGHT  &kp INSERT    &kp SEMI   &kp N1         &kp N2  &kp N3  &kp APOS
                               &kp COMMA  &kp DOT       &none &none &kp FSLH   &kp PAGE_DOWN
             >;
@@ -643,7 +643,7 @@
         typing {
             bindings = <
   &kp Q  &kp W  &kp F  &kp P      &kp B           &kp J                  &kp L        &kp U      &kp Y    &kp BSPC
-  &kp A  &kp R  &kp S  &kp T      &kp G           &kp M                  &kp N        &kp E      &kp I    &kp O
+  &none &kp A  &kp R  &kp S  &kp T      &kp G           &kp M                  &kp N        &kp E      &kp I    &kp O &none
   &kp Z  &kp X  &kp C  &kp D      &kp V           &kp K                  &kp H        &kp COMMA  &kp DOT  &kp FSLH
                        &kp SPACE  &mo_kp 2 ESC    &none &none &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
             >;
@@ -652,7 +652,7 @@
         gallium_v2 {
             bindings = <
   &kp B  &kp L  &kp D  &kp C      &kp V           &kp J                  &kp Y        &kp O      &kp U    &kp BSPC
-  &kp N  &kp R  &kp T  &kp S      &kp G           &kp P                  &kp H        &kp A      &kp E    &kp I
+  &none &kp N  &kp R  &kp T  &kp S      &kp G           &kp P                  &kp H        &kp A      &kp E    &kp I &none
   &kp X  &kp Q  &kp M  &kp W      &kp Z           &kp K                  &kp F        &kp COMMA  &kp DOT  &kp FSLH
                        &kp SPACE  &mo_kp 2 ESC    &none &none &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
             >;
