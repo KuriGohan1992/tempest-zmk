@@ -191,13 +191,13 @@
 
         left {
             bindings = <&kp LEFT>;
-            key-positions = <15 25>;
+            key-positions = <16 27>;
             layers = <0 8>;
         };
 
         right {
             bindings = <&kp RIGHT>;
-            key-positions = <15 5>;
+            key-positions = <5 16>;
             layers = <0 8>;
         };
 
