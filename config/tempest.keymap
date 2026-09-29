@@ -278,7 +278,9 @@
 
         soft-off {
             bindings = <&soft_off>;
-            key-positions = <4 5 15 16>;
+            key-positions = <4 5>;
+            layers = <0>;
+            require-prior-idle-ms = <200>;
         };
     };
 
