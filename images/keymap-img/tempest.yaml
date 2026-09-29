@@ -706,3 +706,5 @@ combos:
   k: {t: typing, h: toggle}
 - p: [27, 28, 29]
   k: {t: gallium_v2, h: toggle}
+- p: [4, 15, 5, 16]
+  k: '&soft_off'
