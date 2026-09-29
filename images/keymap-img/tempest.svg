@@ -530,10 +530,12 @@ path.combo {
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-27">
-<path d="M468,48 l-135,0" class="combo"/>
-<path d="M468,48 l135,0" class="combo"/>
-<rect rx="6" ry="6" x="454" y="35" width="28" height="26" class="combo"/>
-<text x="468" y="48" class="combo tap">&amp;soft_off</text>
+<path d="M468,76 l-135,-25" class="combo"/>
+<path d="M468,76 l135,-25" class="combo"/>
+<path d="M468,76 l-135,25" class="combo"/>
+<path d="M468,76 l135,25" class="combo"/>
+<rect rx="6" ry="6" x="454" y="63" width="28" height="26" class="combo"/>
+<text x="468" y="76" class="combo tap">&amp;soft_off</text>
 </g>
 </g>
 </g>
