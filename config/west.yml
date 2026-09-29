@@ -3,8 +3,8 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
 
-    - name: dsifry
-      url-base: https://github.com/dsifry
+    - name: m165437
+      url-base: https://github.com/M165437
 
   projects:
     - name: zmk
@@ -12,9 +12,9 @@ manifest:
       revision: v0.3
       import: app/west.yml
 
-    - name: nice-view-mod
-      remote: dsifry
-      revision: main
+    - name: nice-view-gem
+      remote: m165437
+      revision: v0.3.0
 
   self:
     path: config
