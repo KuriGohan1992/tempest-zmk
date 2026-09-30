@@ -33,7 +33,7 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - {t: ⎵, h: Macros}
+  - ⎵
   - ⇧
   - {t: ESC, h: Mouse}
   - {t: ENTER, h: Numbers}
@@ -313,7 +313,7 @@ layers:
   - ''
   - ''
   - '&mendez_charl'
-  - '&charl_mendez'
+  - {t: '&charl_mendez', type: held}
   QWERTY:
   - Q
   - W
