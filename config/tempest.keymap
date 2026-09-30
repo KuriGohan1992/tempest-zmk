@@ -519,18 +519,19 @@
 
     keymap {
         compatible = "zmk,keymap";
+
         Base {
             label = "Base";
             bindings = <
-       &kp Q                   &kp W              &kp F                 &kp P                 &kp B         &kp J                  &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
-&none  &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G         &kp M                  &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O  &none
-       &kp Z                   &kp X              &kp C                 &kp D                 &kp V         &kp K                  &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
-                                                  &kp SPACE             &mo_kp 2 ESC          &mo_kp 2 ESC  &mt RIGHT_SHIFT ENTER  &mt RIGHT_SHIFT ENTER   &mo_tog 1 6
+       &kp Q                   &kp W              &kp F                 &kp P                 &kp B         &kp J           &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
+&none  &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G         &kp M           &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O  &none
+       &kp Z                   &kp X              &kp C                 &kp D                 &kp V         &kp K           &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
+                                                  &mo_kp 7 SPACE        &kp LEFT_SHIFT        &mo_kp 3 ESC  &mo_kp 2 ENTER  &kp RIGHT_SHIFT         &mo_tog 1 6
             >;
         };
 
         Symbols {
-label = "Symbols";
+            label = "Symbols";
             bindings = <
        &kp EXCL                  &kp AT                        &kp HASH                  &kp DLLR                             &kp PRCNT             &kp CARET         &kp AMPERSAND                           &kp ASTRK                   &kp TILDE                     &kp DELETE
 &none  &hrm_left LEFT_SHIFT SQT  &hrm_left LEFT_CONTROL UNDER  &hrm_left LEFT_ALT GRAVE  &hrm_left LEFT_GUI LEFT_PARENTHESIS  &kp LEFT_BRACE        &kp RIGHT_BRACE   &hrm_right RIGHT_GUI RIGHT_PARENTHESIS  &hrm_right RIGHT_ALT COLON  &hrm_right RIGHT_CONTROL DQT  &hrm_right RIGHT_SHIFT SEMI  &none
@@ -540,7 +541,7 @@ label = "Symbols";
         };
 
         Numbers {
-label = "Numbers";
+            label = "Numbers";
             bindings = <
        &kp LG(TAB)  &kp RA(RG(F5))  &kp F12    &kp LS(F12)   &kp DLLR      &kp PRCNT           &kp CARET           &kp AMPS     &kp ASTRK  &kp BACKSPACE
 &none  &kp N1       &kp N2          &kp N3     &kp N4        &kp N5        &kp N6              &kp N7              &kp N8       &kp N9     &kp N0         &none
@@ -550,7 +551,7 @@ label = "Numbers";
         };
 
         Mouse {
-label = "Mouse";
+            label = "Mouse";
             bindings = <
        &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-16)  &msc MOVE_X(16)   &kp DOWN       &kp RIGHT              &mmv MOVE_UP        &kp LC(LG(F))    &mt DEL BACKSPACE
 &none  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))     &kp LA(LC(L))  &mmv MOVE_LEFT         &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &kp LC(LA(C))      &none
@@ -560,7 +561,7 @@ label = "Mouse";
         };
 
         Fast {
-label = "Fast";
+            label = "Fast";
             bindings = <
        &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-40)  &msc MOVE_X(40)   &kp DOWN       &kp RIGHT              &mmv MOVE_Y(-5000)  &kp LC(LG(F))      &mt DEL BACKSPACE
 &none  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))     &kp LA(LC(L))  &mmv MOVE_X(-5000)     &mmv MOVE_Y(5000)   &mmv MOVE_X(5000)  &kp LC(LA(C))      &none
@@ -570,7 +571,7 @@ label = "Fast";
         };
 
         Slow {
-label = "Slow";
+            label = "Slow";
             bindings = <
        &mt LG(W) LG(Q)  &kp LC(LA(D))  &kp PAGE_DOWN  &msc MOVE_Y(-4)   &msc MOVE_X(4)   &kp DOWN       &kp RIGHT             &mmv MOVE_Y(-400)   &kp LC(LG(F))     &mt DEL BACKSPACE
 &none  &mo 5            &mo 4          &mkp RCLK      &mkp LCLK         &kp LA(LC(H))    &kp LA(LC(L))  &mmv MOVE_X(-400)     &mmv MOVE_Y(400)    &mmv MOVE_X(400)  &kp LC(LA(C))      &none
@@ -580,7 +581,7 @@ label = "Slow";
         };
 
         Special {
-label = "Special";
+            label = "Special";
             bindings = <
        &kp TAB     &kp LG(MINUS)           &kp LG(N0)  &kp LG(EQUAL)            &none  &none  &kp LG(LEFT)  &none         &kp LG(RIGHT)  &none
 &none  &kp LSHIFT  &kp C_VOLUME_DOWN       &kp K_MUTE  &kp C_VOL_UP             &none  &none  &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp CLCK  &none
@@ -590,7 +591,7 @@ label = "Special";
         };
 
         Macros {
-label = "Macros";
+            label = "Macros";
             bindings = <
        &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)  &prev_song      &soft_off       &next_song       &kp RG(UP)
 &none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings     &finder         &yazi           &zen             &kitty      &none
@@ -600,7 +601,7 @@ label = "Macros";
         };
 
         QWERTY {
-label = "QWERTY";
+            label = "QWERTY";
             bindings = <
        &kp Q  &kp W  &kp E      &kp R         &kp T  &kp Y  &kp U                  &kp I        &kp O    &kp P
 &none  &kp A  &kp S  &kp D      &kp F         &kp G  &kp H  &kp J                  &kp K        &kp L    &kp BACKSPACE  &none
@@ -610,7 +611,7 @@ label = "QWERTY";
         };
 
         GGST_arrow {
-label = "GGSTarrw";
+            label = "GGSTarrw";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp LEFT   &kp TILDE  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp DOWN   &kp UP     &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -620,7 +621,7 @@ label = "GGSTarrw";
         };
 
         GGST_wasd {
-label = "GGSTwasd";
+            label = "GGSTwasd";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -630,7 +631,7 @@ label = "GGSTwasd";
         };
 
         Brawlhalla {
-label = "Brwlhll";
+            label = "Brwlhll";
             bindings = <
        &kp N1  &kp N2  &kp N3     &kp N4     &trans   &trans  &kp RIGHT  &trans  &trans  &trans
 &none  &kp Z   &kp X   &kp C      &kp V      &kp TAB  &kp UP  &kp DOWN   &trans  &trans  &trans  &none
@@ -640,7 +641,7 @@ label = "Brwlhll";
         };
 
         GGST_Online {
-label = "GGSTonln";
+            label = "GGSTonln";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp U      &none          &kp H  &kp L
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp J      &kp K          &kp I  &kp O  &none
@@ -650,7 +651,7 @@ label = "GGSTonln";
         };
 
         GGST_norm {
-label = "GGSTnrml";
+            label = "GGSTnrml";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC   &kp LEFT   &kp TILDE   &kp MINUS  &kp N7    &kp N8         &kp N9  &kp EQUAL
 &none  &none      &none  &kp X      &kp DOWN   &kp UP      &kp RBKT   &kp N4    &kp N5         &kp N6  &kp BSLH   &none
@@ -660,7 +661,7 @@ label = "GGSTnrml";
         };
 
         typing {
-label = "typing";
+            label = "typing";
             bindings = <
        &kp Q  &kp W  &kp F      &kp P         &kp B  &kp J  &kp L                  &kp U        &kp Y    &kp BSPC
 &none  &kp A  &kp R  &kp S      &kp T         &kp G  &kp M  &kp N                  &kp E        &kp I    &kp O     &none
@@ -670,7 +671,7 @@ label = "typing";
         };
 
         gallium_v2 {
-label = "gallium";
+            label = "gallium";
             bindings = <
        &kp B  &kp L  &kp D      &kp C         &kp V  &kp J  &kp Y                  &kp O        &kp U    &kp BSPC
 &none  &kp N  &kp R  &kp T      &kp S         &kp G  &kp P  &kp H                  &kp A        &kp E    &kp I     &none

@@ -33,11 +33,11 @@ layers:
   - {t: ',', s: <}
   - .
   - {t: /, s: '?'}
-  - ⎵
-  - {t: ESC, h: Numbers}
-  - {t: ESC, h: Numbers}
-  - {t: ENTER, h: ⇧}
-  - {t: ENTER, h: ⇧}
+  - {t: ⎵, h: Macros}
+  - ⇧
+  - {t: ESC, h: Mouse}
+  - {t: ENTER, h: Numbers}
+  - ⇧
   - {t: Special, h: Symbols}
   Symbols:
   - '!'
@@ -112,9 +112,9 @@ layers:
   - {t: ., s: '>'}
   - /
   - ⎵
-  - {t: ESC, h: Base, type: held}
   - {t: ESC, h: Base}
-  - {t: ENTER, h: ⌘}
+  - {t: ESC, h: Base}
+  - {t: ENTER, h: ⌘, type: held}
   - {t: ENTER, h: ⌘}
   - {t: Special, h: Symbols}
   Mouse:
@@ -152,7 +152,7 @@ layers:
   - Alt+Ctl+ENTER
   - {t: Base, h: toggle}
   - {t: ESC, h: ⌘}
-  - ''
+  - {type: held}
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: ⎇}
@@ -191,7 +191,7 @@ layers:
   - Alt+Ctl+ENTER
   - {t: Base, h: toggle}
   - {t: ESC, h: ⌘}
-  - ''
+  - {type: held}
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: ⎇}
@@ -230,7 +230,7 @@ layers:
   - Alt+Ctl+ENTER
   - {t: Base, h: toggle}
   - {t: ESC, h: ⌘}
-  - ''
+  - {type: held}
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: ⎇}
@@ -313,7 +313,7 @@ layers:
   - ''
   - ''
   - '&mendez_charl'
-  - {t: '&charl_mendez', type: held}
+  - '&charl_mendez'
   QWERTY:
   - Q
   - W
