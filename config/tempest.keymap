@@ -610,7 +610,7 @@ label = "QWERTY";
         };
 
         GGST_arrow {
-label = "GGSTARW";
+label = "GGST_arrow";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp LEFT   &kp TILDE  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp DOWN   &kp UP     &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -620,7 +620,7 @@ label = "GGSTARW";
         };
 
         GGST_wasd {
-label = "GGSTWASD";
+label = "GGST_wasd";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -630,7 +630,7 @@ label = "GGSTWASD";
         };
 
         Brawlhalla {
-label = "Brwlhll";
+label = "Brawlhalla";
             bindings = <
        &kp N1  &kp N2  &kp N3     &kp N4     &trans   &trans  &kp RIGHT  &trans  &trans  &trans
 &none  &kp Z   &kp X   &kp C      &kp V      &kp TAB  &kp UP  &kp DOWN   &trans  &trans  &trans  &none
@@ -640,7 +640,7 @@ label = "Brwlhll";
         };
 
         GGST_Online {
-label = "GGSTONL";
+label = "GGST_online";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp U      &none          &kp H  &kp L
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp J      &kp K          &kp I  &kp O  &none
@@ -650,13 +650,13 @@ label = "GGSTONL";
         };
 
         GGST_norm {
-label = "GGSTNORM";
+label = "GGST_norm";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC   &kp LEFT   &kp TILDE   &kp MINUS  &kp N7    &kp N8         &kp N9  &kp EQUAL
 &none  &none      &none  &kp X      &kp DOWN   &kp UP      &kp RBKT   &kp N4    &kp N5         &kp N6  &kp BSLH   &none
        &kp LBKT   &none  &kp C      &kp RIGHT  &kp INSERT  &kp SEMI   &kp N1    &kp N2         &kp N3  &kp APOS
                          &kp COMMA  &kp DOT    &none       &none      &kp FSLH  &kp PAGE_DOWN
-            >;oo
+            >;
         };
 
         typing {

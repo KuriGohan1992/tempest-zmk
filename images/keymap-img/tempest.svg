@@ -525,8 +525,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-27">
@@ -748,8 +748,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -956,8 +956,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1181,8 +1181,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1406,8 +1406,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1631,8 +1631,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1832,8 +1832,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2023,8 +2023,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2272,8 +2272,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2465,8 +2465,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2658,8 +2658,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2851,8 +2851,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3044,8 +3044,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3241,8 +3241,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3453,14 +3453,14 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 5241)" class="layer-gallium_v2">
-<text x="0" y="28" class="label" id="gallium_v2">gallium_v2</text>
+<g transform="translate(30, 5241)" class="layer-gallium">
+<text x="0" y="28" class="label" id="gallium">gallium</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -3654,8 +3654,8 @@ path.combo {
 <path d="M678,150 l-38,6" class="combo"/>
 <path d="M678,150 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="137" width="28" height="26" class="combo"/>
-<a href="#gallium_v2">
-<text x="678" y="150" class="combo tap layer-activator">gallium_v2</text>
+<a href="#gallium">
+<text x="678" y="150" class="combo tap layer-activator">gallium</text>
 </a><text x="678" y="161" class="combo hold">toggle</text>
 </g>
 </g>

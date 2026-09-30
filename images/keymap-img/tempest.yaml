@@ -587,7 +587,7 @@ layers:
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
-  gallium_v2:
+  gallium:
   - B
   - L
   - D
@@ -705,7 +705,7 @@ combos:
 - p: [5, 6, 7]
   k: {t: typing, h: toggle}
 - p: [27, 28, 29]
-  k: {t: gallium_v2, h: toggle}
+  k: {t: gallium, h: toggle}
 - p: [4, 5, 15, 16]
   k: '&soft_off'
   l: [Base]
