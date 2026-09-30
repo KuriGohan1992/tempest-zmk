@@ -34,12 +34,12 @@ layers:
   - .
   - {t: /, s: '?'}
   - ⎵
-  - {t: ESC, h: NUMBERS}
-  - {t: ESC, h: NUMBERS}
+  - {t: ESC, h: Numbers}
+  - {t: ESC, h: Numbers}
   - {t: ENTER, h: ⇧}
   - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symb}
-  Symb:
+  - {t: Special, h: Symbols}
+  Symbols:
   - '!'
   - '@'
   - '#'
@@ -78,7 +78,7 @@ layers:
   - {t: ENTER, h: RSHIFT}
   - {t: ENTER, h: RSHIFT}
   - {t: Mouse, h: toggle, type: held}
-  NUMBERS:
+  Numbers:
   - Gui+↹
   - AltGr+Gui+F5
   - F12
@@ -116,7 +116,7 @@ layers:
   - {t: ESC, h: Base}
   - {t: ENTER, h: ⌘}
   - {t: ENTER, h: ⌘}
-  - {t: Special, h: Symb}
+  - {t: Special, h: Symbols}
   Mouse:
   - {t: ⌘Q, h: ⌘W}
   - Ctl+Alt+D
@@ -348,11 +348,11 @@ layers:
   - {t: ., s: '>'}
   - /
   - ⎵
-  - {t: ESC, h: NUMBERS}
+  - {t: ESC, h: Numbers}
   - ''
   - ''
   - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symb}
+  - {t: Special, h: Symbols}
   GGST_arrow:
   - Gui+Q
   - ''
@@ -470,7 +470,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  GGST_Online:
+  GGST_online:
   - Gui+Q
   - ''
   - BSPC
@@ -582,11 +582,11 @@ layers:
   - {t: ., s: '>'}
   - /
   - ⎵
-  - {t: ESC, h: NUMBERS}
+  - {t: ESC, h: Numbers}
   - ''
   - ''
   - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symb}
+  - {t: Special, h: Symbols}
   gallium_v2:
   - B
   - L
@@ -621,11 +621,11 @@ layers:
   - {t: ., s: '>'}
   - /
   - ⎵
-  - {t: ESC, h: NUMBERS}
+  - {t: ESC, h: Numbers}
   - ''
   - ''
   - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symb}
+  - {t: Special, h: Symbols}
 combos:
 - p: [4, 6]
   k: BOOT
@@ -641,7 +641,7 @@ combos:
   k: {t: GGST_arrow, h: toggle}
   l: [Base]
 - p: [29, 30]
-  k: {t: NUMBERS, h: toggle}
+  k: {t: Numbers, h: toggle}
   l: [Base, QWERTY]
 - p: [28, 29]
   k: ⇪ WORD
@@ -685,7 +685,7 @@ combos:
 - p: [16, 17, 18]
   k: {t: Brawlhalla, h: toggle}
 - p: [2, 3, 4]
-  k: {t: GGST_Online, h: toggle}
+  k: {t: GGST_online, h: toggle}
   l: [Base]
 - p: [24, 25, 26]
   k: {t: GGST_norm, h: toggle}
