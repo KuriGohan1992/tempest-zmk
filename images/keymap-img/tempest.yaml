@@ -353,7 +353,7 @@ layers:
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
-  GGST_arrow:
+  GGSTarrw:
   - Gui+Q
   - ''
   - BSPC
@@ -386,13 +386,13 @@ layers:
   - I
   - L
   - ''
-  - {t: GGST_wasd, h: toggle}
+  - {t: GGSTwasd, h: toggle}
   - '0'
   - ''
   - ''
   - ENTER
   - PG DN
-  GGST_wasd:
+  GGSTwasd:
   - Gui+Q
   - ''
   - BSPC
@@ -425,13 +425,13 @@ layers:
   - I
   - L
   - ''
-  - {t: GGST_arrow, h: toggle}
+  - {t: GGSTarrw, h: toggle}
   - '0'
   - ''
   - ''
   - ENTER
   - PG DN
-  Brawlhalla:
+  Brwlhll:
   - '1'
   - '2'
   - '3'
@@ -470,7 +470,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  GGST_online:
+  GGSTonln:
   - Gui+Q
   - ''
   - BSPC
@@ -503,13 +503,13 @@ layers:
   - B
   - N
   - M
-  - {t: GGST_arrow, h: toggle}
+  - {t: GGSTarrw, h: toggle}
   - '0'
   - ''
   - ''
   - ENTER
   - PG DN
-  GGST_norm:
+  GGSTnrml:
   - Gui+Q
   - ''
   - BSPC
@@ -638,7 +638,7 @@ combos:
 - p: [32, 37]
   k: {t: Base, h: toggle}
 - p: [14, 13, 15]
-  k: {t: GGST_arrow, h: toggle}
+  k: {t: GGSTarrw, h: toggle}
   l: [Base]
 - p: [29, 30]
   k: {t: Numbers, h: toggle}
@@ -683,12 +683,12 @@ combos:
   k: ⌘V
   l: [Base, QWERTY]
 - p: [16, 17, 18]
-  k: {t: Brawlhalla, h: toggle}
+  k: {t: Brwlhll, h: toggle}
 - p: [2, 3, 4]
-  k: {t: GGST_online, h: toggle}
+  k: {t: GGSTonln, h: toggle}
   l: [Base]
 - p: [24, 25, 26]
-  k: {t: GGST_norm, h: toggle}
+  k: {t: GGSTnrml, h: toggle}
   l: [Base]
 - p: [14, 15]
   k: Alt+Ctl+H

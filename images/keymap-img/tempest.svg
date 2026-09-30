@@ -410,8 +410,8 @@ path.combo {
 <path d="M259,94 l-38,-7" class="combo"/>
 <path d="M259,94 l38,6" class="combo"/>
 <rect rx="6" ry="6" x="245" y="81" width="28" height="26" class="combo"/>
-<a href="#GGST_arrow">
-<text x="259" y="94" class="combo tap layer-activator">GGST_arrow</text>
+<a href="#GGSTarrw">
+<text x="259" y="94" class="combo tap layer-activator">GGSTarrw</text>
 </a><text x="259" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
@@ -477,24 +477,24 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-19">
 <path d="M259,38 l-38,-7" class="combo"/>
 <path d="M259,38 l38,6" class="combo"/>
 <rect rx="6" ry="6" x="245" y="25" width="28" height="26" class="combo"/>
-<a href="#GGST_online">
-<text x="259" y="38" class="combo tap layer-activator">GGST_online</text>
+<a href="#GGSTonln">
+<text x="259" y="38" class="combo tap layer-activator">GGSTonln</text>
 </a><text x="259" y="49" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-20">
 <path d="M259,150 l-38,-7" class="combo"/>
 <path d="M259,150 l38,6" class="combo"/>
 <rect rx="6" ry="6" x="245" y="137" width="28" height="26" class="combo"/>
-<a href="#GGST_norm">
-<text x="259" y="150" class="combo tap layer-activator">GGST_norm</text>
+<a href="#GGSTnrml">
+<text x="259" y="150" class="combo tap layer-activator">GGSTnrml</text>
 </a><text x="259" y="161" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-21">
@@ -732,8 +732,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -940,8 +940,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1165,8 +1165,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1390,8 +1390,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1615,8 +1615,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -1816,8 +1816,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-4">
@@ -2007,8 +2007,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2256,8 +2256,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-14">
@@ -2278,8 +2278,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3144)" class="layer-GGST_arrow">
-<text x="0" y="28" class="label" id="GGST_arrow">GGST_arrow</text>
+<g transform="translate(30, 3144)" class="layer-GGSTarrw">
+<text x="0" y="28" class="label" id="GGSTarrw">GGSTarrw</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2405,8 +2405,8 @@ path.combo {
 </g>
 <g transform="translate(282, 221)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#GGST_wasd">
-<text x="0" y="0" class="key tap layer-activator">GGST_wasd</text>
+<a href="#GGSTwasd">
+<text x="0" y="0" class="key tap layer-activator">GGSTwasd</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
@@ -2449,8 +2449,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2471,8 +2471,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3494)" class="layer-GGST_wasd">
-<text x="0" y="28" class="label" id="GGST_wasd">GGST_wasd</text>
+<g transform="translate(30, 3494)" class="layer-GGSTwasd">
+<text x="0" y="28" class="label" id="GGSTwasd">GGSTwasd</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2598,8 +2598,8 @@ path.combo {
 </g>
 <g transform="translate(282, 221)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#GGST_arrow">
-<text x="0" y="0" class="key tap layer-activator">GGST_arrow</text>
+<a href="#GGSTarrw">
+<text x="0" y="0" class="key tap layer-activator">GGSTarrw</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
@@ -2642,8 +2642,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2664,8 +2664,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 3843)" class="layer-Brawlhalla">
-<text x="0" y="28" class="label" id="Brawlhalla">Brawlhalla</text>
+<g transform="translate(30, 3843)" class="layer-Brwlhll">
+<text x="0" y="28" class="label" id="Brwlhll">Brwlhll</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2835,8 +2835,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -2857,8 +2857,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 4193)" class="layer-GGST_online">
-<text x="0" y="28" class="label" id="GGST_online">GGST_online</text>
+<g transform="translate(30, 4193)" class="layer-GGSTonln">
+<text x="0" y="28" class="label" id="GGSTonln">GGSTonln</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2984,8 +2984,8 @@ path.combo {
 </g>
 <g transform="translate(282, 221)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#GGST_arrow">
-<text x="0" y="0" class="key tap layer-activator">GGST_arrow</text>
+<a href="#GGSTarrw">
+<text x="0" y="0" class="key tap layer-activator">GGSTarrw</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
@@ -3028,8 +3028,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -3050,8 +3050,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 4542)" class="layer-GGST_norm">
-<text x="0" y="28" class="label" id="GGST_norm">GGST_norm</text>
+<g transform="translate(30, 4542)" class="layer-GGSTnrml">
+<text x="0" y="28" class="label" id="GGSTnrml">GGSTnrml</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -3225,8 +3225,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -3437,8 +3437,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-5">
@@ -3638,8 +3638,8 @@ path.combo {
 <path d="M678,94 l-38,6" class="combo"/>
 <path d="M678,94 l38,-7" class="combo"/>
 <rect rx="6" ry="6" x="664" y="81" width="28" height="26" class="combo"/>
-<a href="#Brawlhalla">
-<text x="678" y="94" class="combo tap layer-activator">Brawlhalla</text>
+<a href="#Brwlhll">
+<text x="678" y="94" class="combo tap layer-activator">Brwlhll</text>
 </a><text x="678" y="105" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
