@@ -352,14 +352,14 @@ path.combo {
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Numbers">
-<text x="0" y="24" class="key hold layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Numbers">
-<text x="0" y="24" class="key hold layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
 </a></g>
 <g transform="translate(536, 255) rotate(-30.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -375,8 +375,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#Special">
 <text x="0" y="0" class="key tap layer-activator">Special</text>
-</a><a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+</a><a href="#Symb">
+<text x="0" y="24" class="key hold layer-activator">Symb</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M496,43 l-163,4" class="combo"/>
@@ -416,8 +416,8 @@ path.combo {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="748" y="136" width="28" height="26" class="combo"/>
-<a href="#Numbers">
-<text x="762" y="149" class="combo tap layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="762" y="149" class="combo tap layer-activator">NUMBERS</text>
 </a><text x="762" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-6">
@@ -539,8 +539,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 349)" class="layer-Symbols">
-<text x="0" y="28" class="label" id="Symbols">Symbols</text>
+<g transform="translate(30, 349)" class="layer-Symb">
+<text x="0" y="28" class="label" id="Symb">Symb</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -754,8 +754,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 699)" class="layer-Numbers">
-<text x="0" y="28" class="label" id="Numbers">Numbers</text>
+<g transform="translate(30, 699)" class="layer-NUMBERS">
+<text x="0" y="28" class="label" id="NUMBERS">NUMBERS</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -917,8 +917,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#Special">
 <text x="0" y="0" class="key tap layer-activator">Special</text>
-</a><a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+</a><a href="#Symb">
+<text x="0" y="24" class="key hold layer-activator">Symb</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
@@ -2167,8 +2167,8 @@ path.combo {
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Numbers">
-<text x="0" y="24" class="key hold layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2185,8 +2185,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#Special">
 <text x="0" y="0" class="key tap layer-activator">Special</text>
-</a><a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+</a><a href="#Symb">
+<text x="0" y="24" class="key hold layer-activator">Symb</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
@@ -2206,8 +2206,8 @@ path.combo {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="748" y="136" width="28" height="26" class="combo"/>
-<a href="#Numbers">
-<text x="762" y="149" class="combo tap layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="762" y="149" class="combo tap layer-activator">NUMBERS</text>
 </a><text x="762" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-3">
@@ -3385,8 +3385,8 @@ path.combo {
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Numbers">
-<text x="0" y="24" class="key hold layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -3403,8 +3403,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#Special">
 <text x="0" y="0" class="key tap layer-activator">Special</text>
-</a><a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+</a><a href="#Symb">
+<text x="0" y="24" class="key hold layer-activator">Symb</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
@@ -3597,8 +3597,8 @@ path.combo {
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Numbers">
-<text x="0" y="24" class="key hold layer-activator">Numbers</text>
+<a href="#NUMBERS">
+<text x="0" y="24" class="key hold layer-activator">NUMBERS</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -3615,8 +3615,8 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <a href="#Special">
 <text x="0" y="0" class="key tap layer-activator">Special</text>
-</a><a href="#Symbols">
-<text x="0" y="24" class="key hold layer-activator">Symbols</text>
+</a><a href="#Symb">
+<text x="0" y="24" class="key hold layer-activator">Symb</text>
 </a></g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
