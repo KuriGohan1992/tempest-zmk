@@ -610,7 +610,7 @@ label = "QWERTY";
         };
 
         GGST_arrow {
-label = "GGST_arrow";
+label = "GGSTARW";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp LEFT   &kp TILDE  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp DOWN   &kp UP     &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -620,7 +620,7 @@ label = "GGST_arrow";
         };
 
         GGST_wasd {
-label = "GGST_wasd";
+label = "GGSTWASD";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp INS    &none          &none     &kp O
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp DEL    &kp END        &kp HOME  &kp PAGE_UP  &none
@@ -630,7 +630,7 @@ label = "GGST_wasd";
         };
 
         Brawlhalla {
-label = "Brawlhalla";
+label = "Brwlhll";
             bindings = <
        &kp N1  &kp N2  &kp N3     &kp N4     &trans   &trans  &kp RIGHT  &trans  &trans  &trans
 &none  &kp Z   &kp X   &kp C      &kp V      &kp TAB  &kp UP  &kp DOWN   &trans  &trans  &trans  &none
@@ -640,7 +640,7 @@ label = "Brawlhalla";
         };
 
         GGST_Online {
-label = "GGST_online";
+label = "GGSTONL";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC  &kp A   &kp Q  &kp BSLH  &kp U      &none          &kp H  &kp L
 &none  &none      &none  &kp X     &kp S   &kp W  &kp RBKT  &kp J      &kp K          &kp I  &kp O  &none
@@ -650,13 +650,13 @@ label = "GGST_online";
         };
 
         GGST_norm {
-label = "GGST_norm";
+label = "GGSTNORM";
             bindings = <
        &kp RG(Q)  &none  &kp BSPC   &kp LEFT   &kp TILDE   &kp MINUS  &kp N7    &kp N8         &kp N9  &kp EQUAL
 &none  &none      &none  &kp X      &kp DOWN   &kp UP      &kp RBKT   &kp N4    &kp N5         &kp N6  &kp BSLH   &none
        &kp LBKT   &none  &kp C      &kp RIGHT  &kp INSERT  &kp SEMI   &kp N1    &kp N2         &kp N3  &kp APOS
                          &kp COMMA  &kp DOT    &none       &none      &kp FSLH  &kp PAGE_DOWN
-            >;
+            >;oo
         };
 
         typing {
@@ -670,7 +670,7 @@ label = "typing";
         };
 
         gallium_v2 {
-label = "gallium_v2";
+label = "gallium";
             bindings = <
        &kp B  &kp L  &kp D      &kp C         &kp V  &kp J  &kp Y                  &kp O        &kp U    &kp BSPC
 &none  &kp N  &kp R  &kp T      &kp S         &kp G  &kp P  &kp H                  &kp A        &kp E    &kp I     &none
