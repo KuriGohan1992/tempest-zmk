@@ -583,8 +583,8 @@ layers:
   - /
   - ⎵
   - {t: ESC, h: Numbers}
-  - ''
-  - ''
+  - {t: ESC, h: Numbers}
+  - {t: ENTER, h: ⇧}
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
   gallium:
