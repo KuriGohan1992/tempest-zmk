@@ -34,10 +34,10 @@ layers:
   - .
   - {t: /, s: '?'}
   - ⎵
-  - {t: ESC, h: Numbers}
+  - {t: ESC, h: Macros}
   - {t: ESC, h: Numbers}
   - {t: ENTER, h: ⇧}
-  - {t: ENTER, h: ⇧}
+  - {t: ENTER, h: Mouse}
   - {t: Special, h: Symbols}
   Symbols:
   - '!'
@@ -112,8 +112,8 @@ layers:
   - {t: ., s: '>'}
   - /
   - ⎵
-  - {t: ESC, h: Base, type: held}
   - {t: ESC, h: Base}
+  - {t: ESC, h: Base, type: held}
   - {t: ENTER, h: ⌘}
   - {t: ENTER, h: ⌘}
   - {t: Special, h: Symbols}
@@ -154,7 +154,7 @@ layers:
   - {t: ESC, h: ⌘}
   - ''
   - ''
-  - {t: ENTER, h: ⇧}
+  - {t: ENTER, h: ⇧, type: held}
   - {t: Special, h: ⎇}
   Fast:
   - {t: ⌘Q, h: ⌘W}
@@ -193,7 +193,7 @@ layers:
   - {t: ESC, h: ⌘}
   - ''
   - ''
-  - {t: ENTER, h: ⇧}
+  - {t: ENTER, h: ⇧, type: held}
   - {t: Special, h: ⎇}
   Slow:
   - {t: ⌘Q, h: ⌘W}
@@ -232,7 +232,7 @@ layers:
   - {t: ESC, h: ⌘}
   - ''
   - ''
-  - {t: ENTER, h: ⇧}
+  - {t: ENTER, h: ⇧, type: held}
   - {t: Special, h: ⎇}
   Special:
   - ↹
@@ -308,12 +308,12 @@ layers:
   - '&student_email'
   - '&personal_email'
   - '&stein'
-  - {t: ⎵, type: held}
-  - Gui+⌫
+  - ⎵
+  - {t: Gui+⌫, type: held}
   - ''
   - ''
   - '&mendez_charl'
-  - {t: '&charl_mendez', type: held}
+  - '&charl_mendez'
   QWERTY:
   - Q
   - W
