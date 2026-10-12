@@ -41,8 +41,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <U_TAPPING_TERM>;
             quick-tap-ms = <U_TAPPING_TERM>;
-            flavor = "tap-preferred";
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>;
+            flavor = "balanced";
         };
 
         hrm_left: hrm_left {
@@ -53,7 +52,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <U_TAPPING_TERM>;
             quick-tap-ms = <U_TAPPING_TERM>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>;
         };
 
@@ -523,10 +522,10 @@
         Base {
             label = "Base";
             bindings = <
-       &kp Q                   &kp W              &kp F                 &kp P                 &kp B         &kp J           &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
-&none  &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G         &kp M           &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O  &none
-       &kp Z                   &kp X              &kp C                 &kp D                 &kp V         &kp K           &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
-                                                  &kp SPACE  &mo_kp 2 ESC  &mo_kp 2 ESC  &mt RIGHT_SHIFT ENTER  &mt RIGHT_SHIFT ENTER  &mo_tog 1 6
+       &kp Q                   &kp W              &kp F                 &kp P                 &kp B         &kp J                  &kp L                   &kp U                   &kp Y                       &kp BACKSPACE
+&none  &hrm_left LEFT_SHIFT A  &hrm_left LCTRL R  &hrm_left LEFT_ALT S  &hrm_left LEFT_GUI T  &kp G         &kp M                  &hrm_right RIGHT_GUI N  &hrm_right RIGHT_ALT E  &hrm_right RIGHT_CONTROL I  &hrm_right RIGHT_SHIFT O  &none
+       &kp Z                   &kp X              &kp C                 &kp D                 &kp V         &kp K                  &kp H                   &kp COMMA               &kp PERIOD                  &kp SLASH
+                                                  &kp SPACE             &mo_kp 2 ESC          &mo_kp 2 ESC  &mt RIGHT_SHIFT ENTER  &mt RIGHT_SHIFT ENTER   &mo_tog 1 6
             >;
         };
 
