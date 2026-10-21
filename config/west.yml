@@ -14,7 +14,7 @@ manifest:
 
     - name: nice-view-mod
       remote: dsifry
-      revision: v0.3.0
+      revision: main
 
   self:
     path: config
