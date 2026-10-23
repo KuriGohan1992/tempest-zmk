@@ -74,9 +74,9 @@ layers:
   - '?'
   - {t: ⎵, h: Macros}
   - {t: ESC, h: Sft+⎇}
-  - {t: ESC, h: Sft+⎇}
+  - {t: ESC, h: Numbers}
   - {t: ENTER, h: RSHIFT}
-  - {t: ENTER, h: RSHIFT}
+  - {t: ENTER, h: Mouse}
   - {t: Mouse, h: toggle, type: held}
   Numbers:
   - Gui+↹
