@@ -283,7 +283,7 @@ layers:
   - Alt+Ctl+Gui+S
   - Gui+↓
   - '&prev_song'
-  - '&soft_off'
+  - ↑
   - '&next_song'
   - Gui+↑
   - ''
@@ -293,9 +293,9 @@ layers:
   - Ctl+Gui+T
   - Alt+Ctl+Gui+D
   - '&settings'
-  - '&finder'
-  - '&yazi'
-  - '&zen'
+  - ←
+  - ↓
+  - →
   - '&kitty'
   - ''
   - Gui+AltGr+X
@@ -311,7 +311,7 @@ layers:
   - ⎵
   - {t: Gui+⌫, type: held}
   - ''
-  - ''
+  - '&charl_evia_mendez'
   - '&mendez_charl'
   - '&charl_mendez'
   QWERTY:

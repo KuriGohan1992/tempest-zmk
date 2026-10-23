@@ -517,6 +517,15 @@
             wait-ms = <1>;
             tap-ms = <1>;
         };
+
+        charl_evia_mendez: charl_evia_mendez {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(C) &kp H &kp A &kp R &kp L &kp SPACE &kp LS(E) &kp M &kp M &kp A &kp N &kp U &kp E &kp L &kp SPACE &kp LS(E) &kp V &kp I &kp A &kp SPACE &kp LS(M) &kp E &kp N &kp D &kp E &kp Z>;
+            label = "CHARL_EVIA_MENDEZ";
+            wait-ms = <1>;
+            tap-ms = <1>;
+        };
     };
 
     keymap {
@@ -595,10 +604,10 @@
         Macros {
             label = "Macros";
             bindings = <
-       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)  &prev_song      &soft_off       &next_song       &kp RG(UP)
-&none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings     &finder         &yazi           &zen             &kitty      &none
-       &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)         &kp LA(LC(LG(R)))  &faith_wifi   &mobile_number  &student_email  &personal_email  &stein
-                                          &kp SPACE   &kp LG(BACKSPACE)  &none              &none         &mendez_charl   &charl_mendez
+       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)        &prev_song      &kp UP          &next_song       &kp RG(UP)
+&none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings           &kp LEFT        &kp DOWN        &kp RIGHT        &kitty      &none
+       &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)         &kp LA(LC(LG(R)))  &faith_wifi         &mobile_number  &student_email  &personal_email  &stein
+                                          &kp SPACE   &kp LG(BACKSPACE)  &none              &charl_evia_mendez  &mendez_charl   &charl_mendez
             >;
         };
 
