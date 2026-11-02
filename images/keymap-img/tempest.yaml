@@ -118,10 +118,10 @@ layers:
   - {t: ENTER, h: ⌘}
   - {t: Special, h: Symbols}
   Mouse:
-  - {t: ⌘Q, h: ⌘W}
+  - {t: ⌘Q, h: (LG(W))}
   - Ctl+Alt+D
   - PG DN
-  - '&msc MOVE_Y(-16)'
+  - '&msc (MOVE_Y(-16))'
   - '&msc MOVE_X(16)'
   - ↓
   - →
@@ -144,7 +144,7 @@ layers:
   - Alt+Ctl+E
   - PG UP
   - '&msc MOVE_Y(16)'
-  - '&msc MOVE_X(-16)'
+  - '&msc (MOVE_X(-16))'
   - ↑
   - ←
   - Alt+Sft+↹
@@ -157,14 +157,14 @@ layers:
   - {t: ENTER, h: ⇧, type: held}
   - {t: Special, h: ⎇}
   Fast:
-  - {t: ⌘Q, h: ⌘W}
+  - {t: ⌘Q, h: (LG(W))}
   - Ctl+Alt+D
   - PG DN
-  - '&msc MOVE_Y(-40)'
+  - '&msc (MOVE_Y(-40))'
   - '&msc MOVE_X(40)'
   - ↓
   - →
-  - '&mmv MOVE_Y(-5000)'
+  - '&mmv (MOVE_Y(-5000))'
   - Ctl+Gui+F
   - {t: ⌫, h: DEL}
   - ''
@@ -174,7 +174,7 @@ layers:
   - LClk
   - Alt+Ctl+H
   - Alt+Ctl+L
-  - '&mmv MOVE_X(-5000)'
+  - '&mmv (MOVE_X(-5000))'
   - '&mmv MOVE_Y(5000)'
   - '&mmv MOVE_X(5000)'
   - Ctl+Alt+C
@@ -183,7 +183,7 @@ layers:
   - Alt+Ctl+E
   - PG UP
   - '&msc MOVE_Y(40)'
-  - '&msc MOVE_X(-40)'
+  - '&msc (MOVE_X(-40))'
   - ↑
   - ←
   - Alt+Sft+↹
@@ -196,14 +196,14 @@ layers:
   - {t: ENTER, h: ⇧, type: held}
   - {t: Special, h: ⎇}
   Slow:
-  - {t: ⌘Q, h: ⌘W}
+  - {t: ⌘Q, h: (LG(W))}
   - Ctl+Alt+D
   - PG DN
-  - '&msc MOVE_Y(-4)'
+  - '&msc (MOVE_Y(-4))'
   - '&msc MOVE_X(4)'
   - ↓
   - →
-  - '&mmv MOVE_Y(-400)'
+  - '&mmv (MOVE_Y(-400))'
   - Ctl+Gui+F
   - {t: ⌫, h: DEL}
   - ''
@@ -213,7 +213,7 @@ layers:
   - LClk
   - Alt+Ctl+H
   - Alt+Ctl+L
-  - '&mmv MOVE_X(-400)'
+  - '&mmv (MOVE_X(-400))'
   - '&mmv MOVE_Y(400)'
   - '&mmv MOVE_X(400)'
   - Ctl+Alt+C
@@ -222,7 +222,7 @@ layers:
   - Alt+Ctl+E
   - PG UP
   - '&msc MOVE_Y(4)'
-  - '&msc MOVE_X(-4)'
+  - '&msc (MOVE_X(-4))'
   - ↑
   - ←
   - Alt+Sft+↹
@@ -312,8 +312,8 @@ layers:
   - {t: Gui+⌫, type: held}
   - ''
   - '&charl_evia_mendez'
-  - '&mendez_charl'
-  - '&charl_mendez'
+  - '&map_int'
+  - '&int_input'
   QWERTY:
   - Q
   - W
@@ -626,6 +626,84 @@ layers:
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
+  CodeChum:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ⌫
+  - ''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - ⎵
+  - CodeMcrs
+  - Numbers
+  - {t: ENTER, h: ⇧}
+  - ''
+  - Symbols
+  CodeMcrs:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - ↑
+  - Y
+  - BSPC
+  - ''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - ←
+  - ↓
+  - →
+  - O
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - ⎵
+  - {t: Gui+⌫, type: held}
+  - ''
+  - '&charl_evia_mendez'
+  - '&mendez_charl'
+  - '&charl_mendez'
 combos:
 - p: [4, 6]
   k: BOOT
@@ -709,3 +787,5 @@ combos:
 - p: [4, 5, 15, 16]
   k: '&soft_off'
   l: [Base]
+- p: [22, 23, 30, 31]
+  k: {t: CodeChum, h: toggle}
