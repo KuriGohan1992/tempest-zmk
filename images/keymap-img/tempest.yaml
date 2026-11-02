@@ -312,8 +312,8 @@ layers:
   - {t: Gui+⌫, type: held}
   - ''
   - '&charl_evia_mendez'
-  - '&map_int'
-  - '&int_input'
+  - '&mendez_charl'
+  - '&charl_mendez'
   QWERTY:
   - Q
   - W
@@ -626,7 +626,7 @@ layers:
   - ''
   - {t: ENTER, h: ⇧}
   - {t: Special, h: Symbols}
-  CodeChum:
+  CodeChm:
   - Q
   - W
   - F
@@ -660,12 +660,12 @@ layers:
   - .
   - {t: /, s: '?'}
   - ⎵
-  - CodeMcrs
+  - CodeMcr
   - Numbers
   - {t: ENTER, h: ⇧}
   - ''
   - Symbols
-  CodeMcrs:
+  CodeMcr:
   - Q
   - W
   - F
@@ -701,9 +701,9 @@ layers:
   - ⎵
   - {t: Gui+⌫, type: held}
   - ''
-  - '&charl_evia_mendez'
-  - '&mendez_charl'
-  - '&charl_mendez'
+  - '&map_int'
+  - '&test_int_input'
+  - '&int_input'
 combos:
 - p: [4, 6]
   k: BOOT
@@ -788,4 +788,4 @@ combos:
   k: '&soft_off'
   l: [Base]
 - p: [22, 23, 30, 31]
-  k: {t: CodeChum, h: toggle}
+  k: {t: CodeChm, h: toggle}

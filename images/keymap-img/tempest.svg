@@ -544,8 +544,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -771,8 +771,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -989,8 +989,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1224,8 +1224,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1459,8 +1459,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1694,8 +1694,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -1905,8 +1905,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2055,11 +2055,11 @@ path.combo {
 </g>
 <g transform="translate(593, 230) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;map_int</text>
+<text x="0" y="0" class="key tap">&amp;mendez_charl</text>
 </g>
 <g transform="translate(655, 221)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;int_input</text>
+<text x="0" y="0" class="key tap">&amp;charl_mendez</text>
 </g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
@@ -2107,8 +2107,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2366,8 +2366,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2569,8 +2569,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2772,8 +2772,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -2975,8 +2975,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3178,8 +3178,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3385,8 +3385,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3612,8 +3612,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
@@ -3823,14 +3823,14 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 5590)" class="layer-CodeChum">
-<text x="0" y="28" class="label" id="CodeChum">CodeChum</text>
+<g transform="translate(30, 5590)" class="layer-CodeChm">
+<text x="0" y="28" class="label" id="CodeChm">CodeChm</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -3966,8 +3966,8 @@ path.combo {
 </g>
 <g transform="translate(343, 230) rotate(15.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#CodeMcrs">
-<text x="0" y="0" class="key tap layer-activator">CodeMcrs</text>
+<a href="#CodeMcr">
+<text x="0" y="0" class="key tap layer-activator">CodeMcr</text>
 </a></g>
 <g transform="translate(401, 255) rotate(30.0)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -4033,14 +4033,14 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>
 </g>
-<g transform="translate(30, 5940)" class="layer-CodeMcrs">
-<text x="0" y="28" class="label" id="CodeMcrs">CodeMcrs</text>
+<g transform="translate(30, 5940)" class="layer-CodeMcr">
+<text x="0" y="28" class="label" id="CodeMcr">CodeMcr</text>
 <g transform="translate(0, 56)">
 <g transform="translate(77, 75) rotate(-8.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -4183,15 +4183,15 @@ path.combo {
 </g>
 <g transform="translate(536, 255) rotate(-30.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;charl_evia_mendez</text>
+<text x="0" y="0" class="key tap">&amp;map_int</text>
 </g>
 <g transform="translate(593, 230) rotate(-15.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;mendez_charl</text>
+<text x="0" y="0" class="key tap">&amp;test_int_input</text>
 </g>
 <g transform="translate(655, 221)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&amp;charl_mendez</text>
+<text x="0" y="0" class="key tap">&amp;int_input</text>
 </g>
 <g class="combo combopos-0">
 <path d="M468,230 l-106,0" class="combo"/>
@@ -4239,8 +4239,8 @@ path.combo {
 <path d="M468,172 l303,-13" class="combo"/>
 <path d="M468,172 l357,13" class="combo"/>
 <rect rx="6" ry="6" x="454" y="159" width="28" height="26" class="combo"/>
-<a href="#CodeChum">
-<text x="468" y="172" class="combo tap layer-activator">CodeChum</text>
+<a href="#CodeChm">
+<text x="468" y="172" class="combo tap layer-activator">CodeChm</text>
 </a><text x="468" y="183" class="combo hold">toggle</text>
 </g>
 </g>

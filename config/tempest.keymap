@@ -535,15 +535,25 @@
         int_input: int_input {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp EQUAL &kp I &kp N &kp T &kp LPAR &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT &kp DQT &kp RPAR &kp RPAR &kp LEFT &kp LEFT &kp LEFT>;
+            bindings = <&kp EQUAL &kp I &kp N &kp T &kp LPAR &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT &kp DQT &kp RPAR &kp RPAR &kp LEFT &kp LEFT &kp LEFT>;
             label = "INT_INPUT";
+            wait-ms = <1>;
         };
 
         map_int: map_int {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp EQUAL &kp L &kp I &kp S &kp T &kp LPAR &kp M &kp A &kp P &kp LPAR &kp I &kp N &kp T &kp COMMA &kp SPACE &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT &kp DQT &kp RPAR &kp DOT &kp S &kp P &kp L &kp I &kp T &kp LPAR &kp RPAR &kp RPAR &kp RPAR>;
+            bindings = <&none &kp EQUAL &kp L &kp I &kp S &kp T &kp LPAR &kp M &kp A &kp P &kp LPAR &kp I &kp N &kp T &kp COMMA &kp SPACE &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT &kp DQT &kp RPAR &kp DOT &kp S &kp P &kp L &kp I &kp T &kp LPAR &kp RPAR &kp RPAR &kp RPAR &kp LA(LEFT) &kp LA(LEFT) &kp LEFT &kp LEFT &kp LEFT>;
             label = "MAP_INT";
+            wait-ms = <10>;
+        };
+
+        test_int_input: test_int_input {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp EQUAL &kp I &kp N &kp T &kp LPAR &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT>;
+            label = "TEST_INT_INPUT";
+            wait-ms = <1>;
         };
     };
 
@@ -626,7 +636,7 @@
        &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)        &prev_song      &kp UP          &next_song       &kp RG(UP)
 &none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings           &kp LEFT        &kp DOWN        &kp RIGHT        &kitty      &none
        &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)         &kp LA(LC(LG(R)))  &faith_wifi         &mobile_number  &student_email  &personal_email  &stein
-                                          &kp SPACE   &kp LG(BACKSPACE)  &none              &charl_evia_mendez  &map_int        &int_input
+                                          &kp SPACE   &kp LG(BACKSPACE)  &none              &charl_evia_mendez  &mendez_charl   &charl_mendez
             >;
         };
 
@@ -711,7 +721,7 @@
         };
 
         CodeChum {
-            label = "CodeChum";
+            label = "CodeChm";
             bindings = <
        &kp Q  &kp W  &kp F      &kp P   &kp B  &kp J                  &kp L  &kp U      &kp Y       &kp BACKSPACE
 &none  &kp A  &kp R  &kp S      &kp T   &kp G  &kp M                  &kp N  &kp E      &kp I       &kp O          &none
@@ -721,12 +731,12 @@
         };
 
         CodeMcrs {
-            label = "CodeMcrs";
+            label = "CodeMcr";
             bindings = <
-       &kp Q  &kp W  &kp F      &kp P              &kp B  &kp J               &kp L          &kp UP         &kp Y      &kp BSPC
-&none  &kp A  &kp R  &kp S      &kp T              &kp G  &kp M               &kp LEFT       &kp DOWN       &kp RIGHT  &kp O     &none
-       &kp Z  &kp X  &kp C      &kp D              &kp V  &kp K               &kp H          &kp COMMA      &kp DOT    &kp FSLH
-                     &kp SPACE  &kp LG(BACKSPACE)  &none  &charl_evia_mendez  &mendez_charl  &charl_mendez
+       &kp Q  &kp W  &kp F      &kp P              &kp B  &kp J     &kp L            &kp UP      &kp Y      &kp BSPC
+&none  &kp A  &kp R  &kp S      &kp T              &kp G  &kp M     &kp LEFT         &kp DOWN    &kp RIGHT  &kp O     &none
+       &kp Z  &kp X  &kp C      &kp D              &kp V  &kp K     &kp H            &kp COMMA   &kp DOT    &kp FSLH
+                     &kp SPACE  &kp LG(BACKSPACE)  &none  &map_int  &test_int_input  &int_input
             >;
         };
     };
