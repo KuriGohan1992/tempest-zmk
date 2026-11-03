@@ -682,11 +682,11 @@ layers:
   - S
   - T
   - G
-  - M
+  - '&vim_O'
   - ←
   - ↓
   - →
-  - O
+  - '&vim_o'
   - ''
   - Z
   - X
@@ -702,7 +702,7 @@ layers:
   - {t: Gui+⌫, type: held}
   - ''
   - '&map_int'
-  - '&test_int_input'
+  - '&collections'
   - '&int_input'
 combos:
 - p: [4, 6]
