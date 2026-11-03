@@ -174,7 +174,7 @@ layers:
   - T
   - G
   - M
-  - N
+  - {t: N, h: ⌘}
   - E
   - I
   - O
