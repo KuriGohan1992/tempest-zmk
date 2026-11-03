@@ -590,7 +590,7 @@
         defaultdict: defaultdict {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp D &kp I &kp C &kp T &kp COMMA &kp SPACE &kp LS(C) &kp O &kp U &kp N &kp T &kp E &kp R &kp RET>;
+            bindings = <&kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp D &kp I &kp C &kp T &kp COMMA &kp SPACE &kp LS(C) &kp O &kp U &kp N &kp T &kp E &kp R>;
             label = "DEFAULTDICT";
             wait-ms = <1>;
             tap-ms = <1>;
