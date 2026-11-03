@@ -682,11 +682,11 @@ layers:
   - ⎇
   - ⌘
   - G
-  - '&vim_O'
+  - '&line_above'
   - ←
   - ↓
   - →
-  - '&vim_o'
+  - '&line_below'
   - ''
   - Z
   - X
