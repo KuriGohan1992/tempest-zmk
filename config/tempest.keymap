@@ -551,20 +551,20 @@
             tap-ms = <1>;
         };
 
-        line_below: vim_o {
+        line_below: line_below {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(RIGHT) &kp ENTER>;
-            label = "VIM_O";
+            label = "LINE_BELOW";
             wait-ms = <1>;
             tap-ms = <1>;
         };
 
-        line_above: vim_O {
+        line_above: line_above {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LG(LEFT) &kp ENTER &kp UP>;
-            label = "VIM_O";
+            label = "LINE_ABOVE";
             wait-ms = <1>;
             tap-ms = <1>;
         };
