@@ -39,6 +39,162 @@ layers:
   - {t: ENTER, h: ⇧}
   - {t: ENTER, h: Mouse}
   - {t: Special, h: Symbols}
+  QWERTY:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ⌫
+  - ''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - ⎵
+  - {t: ESC, h: Numbers}
+  - ''
+  - ''
+  - {t: ENTER, h: ⇧}
+  - {t: Special, h: Symbols}
+  typing:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - BSPC
+  - ''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - ⎵
+  - {t: ESC, h: Numbers}
+  - {t: ESC, h: Numbers}
+  - {t: ENTER, h: ⇧}
+  - {t: ENTER, h: ⇧}
+  - {t: Special, h: Symbols}
+  gallium:
+  - B
+  - L
+  - D
+  - C
+  - V
+  - J
+  - Y
+  - O
+  - U
+  - BSPC
+  - ''
+  - N
+  - R
+  - T
+  - S
+  - G
+  - P
+  - H
+  - A
+  - E
+  - I
+  - ''
+  - X
+  - Q
+  - M
+  - W
+  - Z
+  - K
+  - F
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - /
+  - ⎵
+  - {t: ESC, h: Numbers}
+  - ''
+  - ''
+  - {t: ENTER, h: ⇧}
+  - {t: Special, h: Symbols}
+  CodeChm:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ⌫
+  - ''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - ''
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - {t: ',', s: <}
+  - .
+  - {t: /, s: '?'}
+  - ⎵
+  - CodeMcr
+  - Numbers
+  - {t: ENTER, h: ⇧}
+  - ''
+  - Symbols
   Symbols:
   - '!'
   - '@'
@@ -314,45 +470,6 @@ layers:
   - '&charl_evia_mendez'
   - '&mendez_charl'
   - '&charl_mendez'
-  QWERTY:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - ''
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ⌫
-  - ''
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - /
-  - ⎵
-  - {t: ESC, h: Numbers}
-  - ''
-  - ''
-  - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symbols}
   GGSTarrw:
   - Gui+Q
   - ''
@@ -548,123 +665,6 @@ layers:
   - ''
   - /
   - PG DN
-  typing:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - BSPC
-  - ''
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - ''
-  - Z
-  - X
-  - C
-  - D
-  - V
-  - K
-  - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - /
-  - ⎵
-  - {t: ESC, h: Numbers}
-  - {t: ESC, h: Numbers}
-  - {t: ENTER, h: ⇧}
-  - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symbols}
-  gallium:
-  - B
-  - L
-  - D
-  - C
-  - V
-  - J
-  - Y
-  - O
-  - U
-  - BSPC
-  - ''
-  - N
-  - R
-  - T
-  - S
-  - G
-  - P
-  - H
-  - A
-  - E
-  - I
-  - ''
-  - X
-  - Q
-  - M
-  - W
-  - Z
-  - K
-  - F
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - /
-  - ⎵
-  - {t: ESC, h: Numbers}
-  - ''
-  - ''
-  - {t: ENTER, h: ⇧}
-  - {t: Special, h: Symbols}
-  CodeChm:
-  - Q
-  - W
-  - F
-  - P
-  - B
-  - J
-  - L
-  - U
-  - Y
-  - ⌫
-  - ''
-  - A
-  - R
-  - S
-  - T
-  - G
-  - M
-  - N
-  - E
-  - I
-  - O
-  - ''
-  - Z
-  - X
-  - C
-  - D
-  - V
-  - K
-  - H
-  - {t: ',', s: <}
-  - .
-  - {t: /, s: '?'}
-  - ⎵
-  - CodeMcr
-  - Numbers
-  - {t: ENTER, h: ⇧}
-  - ''
-  - Symbols
   CodeMcr:
   - Q
   - W
