@@ -434,8 +434,8 @@ layers:
   Macros:
   - Alt+Ctl+Gui+L
   - Gui+AltGr+F5
-  - ''
-  - ''
+  - F12
+  - Sft+F12
   - Alt+Ctl+Gui+S
   - Gui+↓
   - '&prev_song'

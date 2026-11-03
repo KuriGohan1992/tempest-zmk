@@ -695,7 +695,7 @@
         Macros {
             label = "Macros";
             bindings = <
-       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &none       &none              &kp LA(LC(LG(S)))  &kp RG(DOWN)        &prev_song      &kp UP          &next_song       &kp RG(UP)
+       &kp LA(LC(LG(L)))  &kp RG(RA(F5))  &kp F12     &kp LS(F12)        &kp LA(LC(LG(S)))  &kp RG(DOWN)        &prev_song      &kp UP          &next_song       &kp RG(UP)
 &none  &color_picker      &ss_save        &ss_copy    &kp LC(LG(T))      &kp LA(LC(LG(D)))  &settings           &kp LEFT        &kp DOWN        &kp RIGHT        &kitty      &none
        &kp RG(RA(X))      &kp LG(N1)      &kp LG(N2)  &kp LG(N5)         &kp LA(LC(LG(R)))  &faith_wifi         &mobile_number  &student_email  &personal_email  &stein
                                           &kp SPACE   &kp LG(BACKSPACE)  &none              &charl_evia_mendez  &mendez_charl   &charl_mendez
