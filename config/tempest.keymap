@@ -572,7 +572,7 @@
         collections: collections {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &kp R &kp O &kp M &kp SPACE &kp C &kp O &kp L &kp L &kp E &kp C &kp T &kp I &kp O &kp N &kp S &kp SPACE &kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &defaultdict &kp COMMA &kp SPACE &counter &kp ENTER>;
+            bindings = <&kp F &kp R &kp O &kp M &kp SPACE &kp C &kp O &kp L &kp L &kp E &kp C &kp T &kp I &kp O &kp N &kp S &kp SPACE &kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &defaultdict>;
             label = "COLLECTIONS";
             wait-ms = <1>;
             tap-ms = <1>;
@@ -590,15 +590,10 @@
         defaultdict: defaultdict {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp D &kp I &kp C &kp T>;
+            bindings = <&kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp D &kp I &kp C &kp T &kp COMMA &kp SPACE &kp LS(C) &kp O &kp U &kp N &kp T &kp E &kp R &kp RET>;
             label = "DEFAULTDICT";
-        };
-
-        counter: counter {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(C) &kp O &kp U &kp N &kp T &kp E &kp R>;
-            label = "COUNTER";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
