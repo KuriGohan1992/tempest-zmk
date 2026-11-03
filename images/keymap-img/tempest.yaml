@@ -671,14 +671,14 @@ layers:
   - F
   - P
   - B
-  - J
+  - '&collections'
   - L
   - ↑
   - Y
   - '&delete_line'
   - ''
-  - ⇧
-  - ⌃
+  - A
+  - R
   - ⎇
   - ⌘
   - G
@@ -701,8 +701,8 @@ layers:
   - ⎵
   - {t: Gui+⌫, type: held}
   - ''
+  - '&list_map'
   - '&map_int'
-  - '&collections'
   - '&int_input'
 combos:
 - p: [4, 6]
