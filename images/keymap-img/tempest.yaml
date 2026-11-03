@@ -675,7 +675,7 @@ layers:
   - L
   - ↑
   - Y
-  - BSPC
+  - '&delete_line'
   - ''
   - ⇧
   - ⌃

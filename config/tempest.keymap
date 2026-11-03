@@ -577,6 +577,15 @@
             wait-ms = <1>;
             tap-ms = <1>;
         };
+
+        delete_line: delete_line {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&select_line &kp BACKSPACE>;
+            label = "DELETE_LINE";
+            wait-ms = <1>;
+            tap-ms = <1>;
+        };
     };
 
     keymap {
@@ -755,8 +764,8 @@
         CodeMcrs {
             label = "CodeMcr";
             bindings = <
-       &kp Q      &kp W      &kp F      &kp P              &kp B  &kp J        &kp L         &kp UP      &kp Y      &kp BSPC
-&none  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI           &kp G  &line_above  &kp LEFT      &kp DOWN    &kp RIGHT  &line_below  &none
+       &kp Q      &kp W      &kp F      &kp P              &kp B  &kp J        &kp L         &kp UP      &kp Y      &delete_line
+&none  &kp LSHFT  &kp LCTRL  &kp LALT   &kp LGUI           &kp G  &line_above  &kp LEFT      &kp DOWN    &kp RIGHT  &line_below   &none
        &kp Z      &kp X      &kp C      &kp D              &kp V  &kp K        &kp H         &kp COMMA   &kp DOT    &kp FSLH
                              &kp SPACE  &kp LG(BACKSPACE)  &none  &map_int     &collections  &int_input
             >;
