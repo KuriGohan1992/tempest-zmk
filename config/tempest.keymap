@@ -313,8 +313,8 @@
             #binding-cells = <0>;
             bindings = <&kp S &kp N2 &kp N0 &kp N2 &kp N3 &kp N1 &kp N0 &kp N0 &kp N6 &kp N0 &kp N2 &kp TAB &kp LS(M) &kp E &kp N &kp D &kp E &kp Z &kp N0 &kp N9 &kp N0 &kp N5 &kp ENTER>;
             label = "FAITH_WIFI";
-            tap-ms = <1>;
-            wait-ms = <1>;
+            tap-ms = <20>;
+            wait-ms = <20>;
         };
 
         student_email: student_email {
@@ -322,8 +322,8 @@
             #binding-cells = <0>;
             bindings = <&kp S &kp N2 &kp N0 &kp N2 &kp N3 &kp N1 &kp N0 &kp N0 &kp N6 &kp N0 &kp N2 &kp AT &kp F &kp I &kp R &kp S &kp T &kp A &kp S &kp I &kp A &kp DOT &kp E &kp D &kp U &kp DOT &kp P &kp H>;
             label = "STUDENT_EMAIL";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         mobile_number: mobile_number {
@@ -331,8 +331,8 @@
             #binding-cells = <0>;
             bindings = <&kp N0 &kp N9 &kp N7 &kp N6 &kp N3 &kp N2 &kp N7 &kp N0 &kp N1 &kp N3 &kp N8>;
             label = "MOBILE_NUMBER";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         personal_email: personal_email {
@@ -340,8 +340,8 @@
             #binding-cells = <0>;
             bindings = <&kp C &kp H &kp A &kp M &kp M &kp E &kp N &kp D &kp E &kp Z &kp N9 &kp N2 &kp N9 &kp N0 &kp N5 &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
             label = "PERSONAL_EMAIL";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         stein: stein {
@@ -349,8 +349,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(S) &kp T &kp E &kp I &kp N &kp S &kp SEMI &kp LS(G) &kp A &kp T &kp E &kp N2 &kp N0 &kp N1 &kp N0>;
             label = "STEIN";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         select_line: select_line {
@@ -511,8 +511,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(M) &kp E &kp N &kp D &kp E &kp Z &kp COMMA &kp SPACE &kp LS(C) &kp H &kp A &kp R &kp L &kp SPACE &kp LS(E) &kp M &kp M &kp A &kp N &kp U &kp E &kp L &kp SPACE &kp LS(E) &kp DOT>;
             label = "MENDEZ_CHARL";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         charl_mendez: charl_mendez {
@@ -520,8 +520,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp H &kp A &kp R &kp L &kp SPACE &kp LS(E) &kp M &kp M &kp A &kp N &kp U &kp E &kp L &kp SPACE &kp LS(E) &kp DOT &kp SPACE &kp LS(M) &kp E &kp N &kp D &kp E &kp Z>;
             label = "CHARL_MENDEZ";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         charl_evia_mendez: charl_evia_mendez {
@@ -529,8 +529,8 @@
             #binding-cells = <0>;
             bindings = <&kp LS(C) &kp H &kp A &kp R &kp L &kp SPACE &kp LS(E) &kp M &kp M &kp A &kp N &kp U &kp E &kp L &kp SPACE &kp LS(E) &kp V &kp I &kp A &kp SPACE &kp LS(M) &kp E &kp N &kp D &kp E &kp Z>;
             label = "CHARL_EVIA_MENDEZ";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         int_input: int_input {
@@ -538,8 +538,8 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp EQUAL &kp SPACE &kp I &kp N &kp T &kp LPAR &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp DQT>;
             label = "INT_INPUT";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         list_map: list_map {
@@ -547,8 +547,8 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp EQUAL &kp SPACE &kp L &kp I &kp S &kp T &kp LPAR &kp M &kp A &kp P &kp LPAR &kp I &kp N &kp T &kp COMMA &kp SPACE &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp RPAR &kp DOT &kp S &kp P &kp L &kp I &kp T &kp LPAR &kp LA(LEFT) &kp LA(LEFT) &kp LA(LEFT) &kp RIGHT &kp DOUBLE_QUOTES>;
             label = "LIST_MAP";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         line_below: line_below {
@@ -574,8 +574,8 @@
             #binding-cells = <0>;
             bindings = <&kp F &kp R &kp O &kp M &kp SPACE &kp C &kp O &kp L &kp L &kp E &kp C &kp T &kp I &kp O &kp N &kp S &kp SPACE &kp I &kp M &kp P &kp O &kp R &kp T &kp SPACE &kp D &kp E &kp F &kp A &kp U &kp L &kp T &kp D &kp I &kp C &kp T &kp COMMA &kp SPACE &kp LS(C) &kp O &kp U &kp N &kp T &kp E &kp R>;
             label = "COLLECTIONS";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         delete_line: delete_line {
@@ -601,8 +601,8 @@
             #binding-cells = <0>;
             bindings = <&kp SPACE &kp EQUAL &kp SPACE &kp M &kp A &kp P &kp LPAR &kp I &kp N &kp T &kp COMMA &kp SPACE &kp I &kp N &kp P &kp U &kp T &kp LPAR &kp RPAR &kp DOT &kp S &kp P &kp L &kp I &kp T &kp LPAR &kp LA(LEFT) &kp LA(LEFT) &kp LA(LEFT) &kp RIGHT &kp DOUBLE_QUOTES>;
             label = "MAP_INT";
-            wait-ms = <1>;
-            tap-ms = <1>;
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
     };
 
