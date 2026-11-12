@@ -693,10 +693,10 @@ layers:
   - C
   - D
   - V
-  - K
-  - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - '&rotate180'
+  - '&counterclockwise'
+  - '&clockwise'
+  - '&transposed'
   - /
   - ⎵
   - {t: Gui+⌫, type: held}

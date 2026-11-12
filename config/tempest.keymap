@@ -604,6 +604,42 @@
             wait-ms = <20>;
             tap-ms = <20>;
         };
+
+        transposed: transposed {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp SPACE &kp EQUAL &kp SPACE &kp LBKT &kp L &kp I &kp S &kp T &kp LPAR &kp R &kp O &kp W &kp RPAR &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp O &kp W &kp SPACE &kp I &kp N &kp SPACE &kp Z &kp I &kp P &kp LPAR &kp STAR &kp M &kp A &kp T &kp R &kp I &kp X &kp RPAR &kp RBKT>;
+            label = "TRANSPOSED";
+            wait-ms = <20>;
+            tap-ms = <20>;
+        };
+
+        clockwise: clockwise {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp SPACE &kp EQUAL &kp SPACE &kp LBKT &kp L &kp I &kp S &kp T &kp LPAR &kp R &kp O &kp W &kp RPAR &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp O &kp W &kp SPACE &kp I &kp N &kp SPACE &kp Z &kp I &kp P &kp LPAR &kp STAR &kp M &kp A &kp T &kp R &kp I &kp X &kp LBKT &kp COLON &kp COLON &kp MINUS &kp N1 &kp RBKT &kp RPAR &kp RBKT>;
+            label = "CLOCKWISE";
+            wait-ms = <20>;
+            tap-ms = <20>;
+        };
+
+        counterclockwise: counterclockwise {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp C &kp SPACE &kp EQUAL &kp SPACE &kp LBKT &kp L &kp I &kp S &kp T &kp LPAR &kp R &kp O &kp W &kp RPAR &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp O &kp W &kp SPACE &kp I &kp N &kp SPACE &kp Z &kp I &kp P &kp LPAR &kp STAR &kp M &kp A &kp T &kp R &kp I &kp X &kp RPAR &kp RBKT &kp LBKT &kp COLON &kp COLON &kp MINUS &kp N1 &kp RBKT>;
+            label = "COUNTERCLOCKWISE";
+            wait-ms = <20>;
+            tap-ms = <20>;
+        };
+
+        rotate180: rotate180 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp O &kp T &kp A &kp T &kp E &kp UNDER &kp N1 &kp N8 &kp N0 &kp SPACE &kp EQUAL &kp SPACE &kp LBKT &kp R &kp O &kp W &kp LBKT &kp COLON &kp COLON &kp MINUS &kp N1 &kp RBKT &kp SPACE &kp F &kp O &kp R &kp SPACE &kp R &kp O &kp W &kp SPACE &kp I &kp N &kp SPACE &kp M &kp A &kp T &kp R &kp I &kp X &kp LBKT &kp COLON &kp COLON &kp MINUS &kp N1 &kp RBKT &kp RBKT>;
+            label = "ROTATE180";
+            wait-ms = <20>;
+            tap-ms = <20>;
+        };
     };
 
     keymap {
@@ -782,10 +818,10 @@
         CodeMcrs {
             label = "CodeMcr";
             bindings = <
-       &kp Q  &kp W  &kp F      &kp P              &kp B  &collections  &kp L     &kp UP      &kp Y      &delete_line
-&none  &kp A  &kp R  &kp LALT   &kp LGUI           &kp G  &line_above   &kp LEFT  &kp DOWN    &kp RIGHT  &line_below   &none
-       &kp Z  &kp X  &kp C      &kp D              &kp V  &kp K         &kp H     &kp COMMA   &kp DOT    &kp FSLH
-                     &kp SPACE  &kp LG(BACKSPACE)  &none  &list_map     &map_int  &int_input
+       &kp Q  &kp W  &kp F      &kp P              &kp B  &collections  &kp L              &kp UP      &kp Y        &delete_line
+&none  &kp A  &kp R  &kp LALT   &kp LGUI           &kp G  &line_above   &kp LEFT           &kp DOWN    &kp RIGHT    &line_below   &none
+       &kp Z  &kp X  &kp C      &kp D              &kp V  &rotate180    &counterclockwise  &clockwise  &transposed  &kp FSLH
+                     &kp SPACE  &kp LG(BACKSPACE)  &none  &list_map     &map_int           &int_input
             >;
         };
     };
