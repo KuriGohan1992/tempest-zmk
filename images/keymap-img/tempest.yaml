@@ -228,12 +228,12 @@ layers:
   - <
   - '>'
   - '?'
-  - {t: ⎵, h: Macros}
+  - {t: ⎵, h: Base}
   - {t: ESC, h: Sft+⎇}
   - {t: ESC, h: Numbers}
   - {t: ENTER, h: RSHIFT}
   - {t: ENTER, h: Mouse}
-  - {t: Mouse, h: toggle, type: held}
+  - {type: held}
   Numbers:
   - Gui+↹
   - AltGr+Gui+F5
@@ -430,7 +430,7 @@ layers:
   - ''
   - ''
   - ENTER
-  - {t: Mouse, h: toggle}
+  - {t: Base, h: toggle}
   Macros:
   - Alt+Ctl+Gui+L
   - Gui+AltGr+F5

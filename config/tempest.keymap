@@ -701,7 +701,7 @@
        &kp EXCL                  &kp AT                        &kp HASH                  &kp DLLR                             &kp PRCNT       &kp CARET         &kp AMPERSAND                           &kp ASTRK                   &kp TILDE                     &kp DELETE
 &none  &hrm_left LEFT_SHIFT SQT  &hrm_left LEFT_CONTROL UNDER  &hrm_left LEFT_ALT GRAVE  &hrm_left LEFT_GUI LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &hrm_right RIGHT_GUI RIGHT_PARENTHESIS  &hrm_right RIGHT_ALT COLON  &hrm_right RIGHT_CONTROL DQT  &hrm_right RIGHT_SHIFT SEMI  &none
        &kp PLUS                  &kp MINUS                     &kp EQUAL                 &kp LBKT                             &kp BSLH        &kp PIPE          &kp RBKT                                &kp LT                      &kp GT                        &kp QMARK
-                                                               &mo_kp 11 SPACE           &mt LS(LEFT_ALT) ESC                 &mo_kp 6 ESC    &mt RSHIFT ENTER  &mo_kp 7 ENTER                          &to 7
+                                                               &mo_kp 0 SPACE            &mt LS(LEFT_ALT) ESC                 &mo_kp 6 ESC    &mt RSHIFT ENTER  &mo_kp 7 ENTER                          &none
             >;
         };
 
@@ -751,7 +751,7 @@
        &kp TAB     &kp LG(MINUS)           &kp LG(N0)  &kp LG(EQUAL)            &none  &none  &kp LG(LEFT)  &none         &kp LG(RIGHT)  &none
 &none  &kp LSHIFT  &kp C_VOLUME_DOWN       &kp K_MUTE  &kp C_VOL_UP             &none  &none  &kp LA(LEFT)  &none         &kp LA(RIGHT)  &kp CLCK  &none
        &none       &kp RS(RC(LEFT_ARROW))  &none       &kp RC(RS(RIGHT_ARROW))  &none  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &none
-                                           &to 0       &mt LEFT_GUI ESC         &none  &none  &kp ENTER     &to 7
+                                           &to 0       &mt LEFT_GUI ESC         &none  &none  &kp ENTER     &to 0
             >;
         };
 
